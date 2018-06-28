@@ -31,8 +31,6 @@ export default class TodoBox extends React.Component {
     this.handleAddTodoItem = this.handleAddTodoItem.bind(this);
   }
   handleToggleComplete(taskId) {
-    console.log(111);
-    console.log(111);
     let data = this.state.data;
     for (let item of data) {
       if (item.id === taskId) {
