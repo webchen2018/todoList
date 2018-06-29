@@ -20,7 +20,7 @@ export default class AddTodoItem extends React.Component {
     }
   }
   render() {
-    console.log('测试3');
+    console.log('测试4');
     return (
       <div className="addtodoitem">
         <Form.Item>
