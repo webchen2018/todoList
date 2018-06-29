@@ -1,13 +1,13 @@
 {
-  "name": "starwars-names-lueluelue",
-  "version": "0.0.0-development",
+  "name": "cy-todo-list",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --debug",
     "travis-deploy-once": "travis-deploy-once"
   },
   "author": "",
