@@ -2,6 +2,9 @@ import React from 'react';
 import TodoList from './todolist';
 import AddTodoItem from './addtodoitem';
 import {Button,Icon,Row,Col} from 'antd';
+
+console.log("rtest");
+
 export default class TodoBox extends React.Component {
   constructor(props) {
     super(props)
