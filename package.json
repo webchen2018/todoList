@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development",
-    "semantic-release": "semantic-release --debug",
+    "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
   "author": "",
